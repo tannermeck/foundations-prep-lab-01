@@ -1,2 +1,36 @@
-# foundations-prep-lab-01
-Starter Repo for Foundations Prep Lab 01
+## Lab-01 Git & the Terminal
+
+---
+
+## Hint: Have the finder open while you do this!
+
+## Setup
+
+If you don't have a `~/alchemy` directory, go make one!
+
+## Step by Step Instructions
+
+1. Make a fork of this repo
+   ![](./fork-repo.png)
+1. Copy the url to your fork and clone it to your `~/alchemy` folder
+   `git clone <your fork url>`
+1. CD into your repo
+   `cd foundations-prep-lab-01`
+1. Use `ls` and `cd` to move around in the directory and also use your finder to compare what you're seeing in the terminal with what you're seeing in the finder.
+1. We're now going to create some new files using the terminal -- create 2 new files in the `files-to-remove` directory with the echo command. The files should contain the following:
+   |filename|text contents|
+   |--|--|
+   |files-to-remove/name.txt| My name is <your name> |
+   |files-to-remove/foo-bar.txt | if foo then bar|
+1. Move files with from `files-to-remove` to `empty` with `mv`
+1. Rename `empty` to `full` with `mv`.
+1. Remove newly empty `files-to-remove` directory with `rmdir`
+1. ACP your changes
+1. Open a Pull Request from your Fork to the original repository
+1. Submit a link to your Pull Request
+
+## Points Break Down
+
+| Looking For                                               | Points (10) |
+| :-------------------------------------------------------- | ----------: |
+| Link to Pull Request in Canvas with proper file structure |          10 |
